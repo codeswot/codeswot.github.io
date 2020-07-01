@@ -854,7 +854,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	   * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>
 	   */
 	  showCursor: true,
-	  cursorChar: '|',
+	  cursorChar: '_',
 	  autoInsertCss: true,
 	
 	  /**

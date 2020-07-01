@@ -86,7 +86,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: #4f90cd;
 }
 
 .overlay-mf {
@@ -153,7 +153,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #4f90cd;
   margin: 0 auto;
 }
 
@@ -171,7 +171,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: #0078ff;
+  background-color: #4f90cd;
   width: 100px;
   bottom: -12px;
 }
@@ -212,7 +212,7 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px #4f90cd;
   transition: all 500ms ease;
 }
 
@@ -248,7 +248,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  box-shadow: 0 0 0 10px #4f90cd;
   display: block;
 }
 
@@ -293,7 +293,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: #4f90cd;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -311,7 +311,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0078ff;
+  background: #4f90cd;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -354,7 +354,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #4f90cd;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -402,13 +402,13 @@ a:hover {
 }
 
 .button:hover {
-  background-color: #0062d3;
+  background-color: #4f90cd;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #0078ff;
+  /* background-color: #0078ff; */
   color: #fff;
   border-color: #cde1f8;
 }
@@ -429,9 +429,14 @@ a:hover {
   border-radius: .2rem;
 }
 .button-section{
-  display: flex;
+  display:none;
+  grid-template-columns: 2fr;
+  grid-template-rows: 2fr;
   margin-top: 10rem;
   margin-bottom: 10rem;
+}
+.button-section-item{
+  flex-wrap: wrap;
 }
 .button-fix{
   width: 50%;
@@ -439,7 +444,36 @@ a:hover {
   margin-right: 10px;
   
 }
+.learn-more-button{
+  margin-top: 7rem;
+  text-transform: capitalize;
+}
+.btn-primary1{
+  font-size: 1.4rem;
+  font-weight: 300;
+  border-color:white;
 
+  background-color: #1b1b1b;
+  color: #17e35d;
+}
+.btn-primary1:hover{
+  color: #17e35d ;
+  border-color: #4f90cd;
+
+  background-color: #1b1b1b;
+}
+.geek-link{
+  font-style: italic;
+  font-weight: 600;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.767);
+}
+.geek-link:hover{
+  padding-left: .1rem;
+  padding-right: .1rem;
+  color: #17e35d;
+  background-color: #1b1b1b;
+}
 /*--------------------------------------------------------------
 # Nav Bar
 --------------------------------------------------------------*/
@@ -534,22 +568,22 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #0078ff;
+  background-color: #4f90cd;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #0078ff;
+  color: #4f90cd;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #0078ff;
+  color: #4f90cd;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+  color: #4f90cd;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -667,6 +701,9 @@ a:hover {
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  text-transform: capitalize;
 }
 
 @media (min-width: 768px) {
@@ -676,18 +713,35 @@ a:hover {
 }
 
 .intro .intro-subtitle {
+  background-color: #1B1B1B !important;
+  color: #17e35d;
   font-size: 1.5rem;
   font-weight: 300;
+  width: 100%;
+  margin-top: 4rem;
+  /* margin: auto; */
+  display: flex;
 }
 
 @media (min-width: 768px) {
   .intro .intro-subtitle {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
+    
+  
   }
+  
+}
+
+.terminal-indicator{
+  float: left;
+  margin-left: 10px;
+  margin-right: 15px;
+  clear: both;
 }
 
 .intro .text-slider-items {
   display: none;
+
 }
 
 .intro-single {
@@ -695,7 +749,7 @@ a:hover {
 }
 
 .intro-single .intro-content {
-  margin-top: 30px;
+  margin-top: 10rem;
 }
 
 .intro-single .intro-title {
@@ -762,7 +816,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #0078ff;
+  background-color: #4f90cd;
 }
 
 /*--------------------------------------------------------------
