@@ -992,14 +992,17 @@ a:hover {
 .work-content .w-more {
   color: #4e4e4e;
   font-size: .8rem;
+
 }
 
 .work-content .w-more .w-ctegory {
   color: #0078ff;
+  font-size: 1.3em;
+
 }
 
 .work-content .w-like {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   color: #0078ff;
   float: right;
 }
