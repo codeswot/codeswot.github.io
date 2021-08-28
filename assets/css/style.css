@@ -9,16 +9,25 @@ body {
   color: #4e4e4e;
 }
 .attention{
-  padding: 5rem;
+  padding: 4rem;
   text-align: center;
-  background-color: #764ef93b;
+  background-color: #ad99ee21;
 }
 .buttonDwn{
   padding: 15rem;
+  margin-bottom: 1rem;
+  
+  text-align: center;
 }
 .buttonHire{
   padding: 15rem;
+  text-align: center;
 
+}
+
+ul{
+  padding: 0px;
+  margin-bottom: 10px;
 }
 
 h1,
@@ -682,7 +691,7 @@ a:hover {
       padding: 0.7rem;
       border-radius: 4em;
       background-color: #fff;
-      color: #754ef9;
+      color: #4f90cd;
       border-color: #fff; }
       .call-action-content ul li .main-btn.custom:hover {
         background-color: #754ef9;
